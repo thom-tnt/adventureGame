@@ -44,13 +44,13 @@ def FirstChoice(health):                                         #First choice
             ch1Right(health)
             
         else:
-            print("Invalid Choice! Please Type left or rigt.")
+            print("Invalid Choice! Please Type left or right.")
             FirstChoice(health)
 
     #-------------CHOICE 1 RIGHT
 
 def ch1Right(health):
-    print("you get about half way down the path and fallover see a chest")
+    print("you get about half way down the path and fall over see a chest")
     print("do you want to open the chest?")
     ChestChoice1 = input (": ")
     ChestChoice1 = ChestChoice1.lower()
